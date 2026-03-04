@@ -128,11 +128,12 @@ these documents are used to demonstrate parsing and extraction.
 
 a few screenshots from the demo pipeline.
 
-![parsed document](docs/parsed_document.png)
+![parsed document](data/Output_sample/parsed_document.png)
 
-![extracted fields](docs/extracted_fields.png)
+![extracted fields](data/Output_sample/extracted_fields.png)
 
-![final gold table](docs/gold_table.png)
+![final gold table](data/Output_sample/gold_table.png)
+---
 
 ## how to run
 
