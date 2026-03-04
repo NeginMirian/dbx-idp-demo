@@ -126,14 +126,8 @@ these documents are used to demonstrate parsing and extraction.
 ---
 ## example output
 
-a few screenshots from the demo pipeline.
+you can see a few screenshots from the demo pipeline in the output_sample folder
 
-![parsed document](data/Output_sample/parsed_document.png)
-
-![extracted fields](data/Output_sample/extracted_fields.png)
-
-![final gold table](data/Output_sample/gold_table.png)
----
 
 ## how to run
 
