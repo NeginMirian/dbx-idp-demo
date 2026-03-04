@@ -124,6 +124,15 @@ the demo includes several types of example documents such as:
 these documents are used to demonstrate parsing and extraction.
 
 ---
+## example output
+
+a few screenshots from the demo pipeline.
+
+![parsed document](docs/parsed_document.png)
+
+![extracted fields](docs/extracted_fields.png)
+
+![final gold table](docs/gold_table.png)
 
 ## how to run
 
