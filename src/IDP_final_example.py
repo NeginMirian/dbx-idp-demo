@@ -47,7 +47,7 @@ DOCS_TARGET_DBFS = "dbfs:/FileStore/idp-demo/docs/"  # where to copy in workspac
 # MAGIC       e -> coalesce(try_cast(e:content AS STRING), '')
 # MAGIC     )
 # MAGIC   ) AS doc_text
-# MAGIC FROM negin_demo.idp.parsed_data;
+# MAGIC FROM idp_demo.idp_bronze.parsed_data;
 
 # COMMAND ----------
 
@@ -61,7 +61,7 @@ DOCS_TARGET_DBFS = "dbfs:/FileStore/idp-demo/docs/"  # where to copy in workspac
 # MAGIC create or replace table idp_demo.idp_silver.classified_data as
 # MAGIC select *,
 # MAGIC ai_classify(doc_text, array('construction_invoice','apartment_rental','purchase_order')) as document_classification
-# MAGIC  from negin_demo.idp.better_data
+# MAGIC  from idp_demo.idp_silver.better_data
 
 # COMMAND ----------
 
